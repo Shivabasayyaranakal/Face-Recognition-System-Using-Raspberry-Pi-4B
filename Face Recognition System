@@ -1,2 +1,20 @@
 🚀 Face Recognition System using Raspberry Pi 4B
 A face recognition system using Raspberry Pi 4B, OpenCV, and a camera module to detect and recognize faces in real time.
+
+🔥 6. Running the Full System
+Collect Dataset:
+python3 Image_Capture.py
+Train Model:
+python3 Model_training.py
+Recognize Faces:
+python3 Facial_recognition.py
+🛠 Troubleshooting
+If OpenCV doesn't detect faces, check your camera connection.
+If recognition is inaccurate, increase dataset size.
+If an error occurs, try reinstalling dependencies.
+🏆 Future Enhancements
+✅ Improve accuracy using deep learning (e.g., FaceNet).
+✅ Integrate with IoT for smart door access.
+✅ Add a GUI for better user interaction.
+
+
